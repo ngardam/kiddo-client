@@ -1,0 +1,65 @@
+.gridWrapContainer {
+    display: flex;
+}
+
+.gridDBListContainer {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.gridDBListWrap {
+    background-color: rgb(227, 242, 255);    
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+    /* font-size: 3vh; */
+}
+
+.gridCompanyListWrap {
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+}
+
+.business{
+    color:black;
+    text-decoration: underline;
+}
+
+.businessName:hover{
+    transform: translateY(-2px);
+    transition:  all 250ms ease;
+}
+
+.searchForm{
+    background-color: #2f3448;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding-left: 5vw;
+    /* gap: 50px; */
+    gap: 1em;
+    padding: 20px;
+    /* margin-left: 1em; */
+    /* margin-top: 1em; */
+    /* margin-bottom: 1em; */
+    /* width: 30vw; */
+}
+
+#tableContainer{
+    margin: 15px;
+    /* width: 90vw; */
+    border: 6px solid #1a2f80;
+    border-radius: 10px;
+    align-self: center;
+}
+
+#customerServicePortal{
+    display: flex;
+    flex-direction: column;
+}
